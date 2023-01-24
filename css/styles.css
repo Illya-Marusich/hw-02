@@ -34,6 +34,10 @@ visually-hidden {
     overflow: hidden;
 }
 
+.list {
+    list-style: none;
+}
+
 .link {
     text-decoration: none;
 }
@@ -62,20 +66,12 @@ visually-hidden {
 }
 
 .header-logo-span {
-    font-family: "Raleway";
-        font-weight: 800;
-        font-size: 18px;
-        line-height: calc(24 / 18);
-        letter-spacing: 0.03em;
-
     text-transform: uppercase;
     color: var(--color-iris);
 }
 
 .header-link {  
     font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24 / 16);
     color: var(--color-navy-blue);
 }
 
@@ -94,12 +90,12 @@ visually-hidden {
 
 .header-mail,
 .header-contact {
-    font-size: 16px;
-    line-height: calc(24 / 16);
-    letter-spacing: 0.02em;
+    
     color: var(--color-slate);
 }
 
+.header-contact:hover,
+.header-contact:focus,
 .header-mail:hover,
 .header-mail:focus {
     color: var(--color-ocean);
@@ -114,7 +110,6 @@ visually-hidden {
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
-    letter-spacing: 0.02em;
     
     color: var(--color-white);
     
@@ -130,6 +125,7 @@ visually-hidden {
     color: var(--color-white);
     background-color: var(--color-iris);
     cursor: pointer;
+    border: none;
 }
 
 .hero-button:hover,
@@ -152,7 +148,6 @@ background-color: var(--color-ocean);
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    letter-spacing: 0.02em;
     
     color: var(--color-navy-blue);
 }
@@ -187,7 +182,6 @@ background-color: var(--color-ocean);
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    letter-spacing: 0.02em;
 
     color: var(--color-navy-blue);
 }
@@ -258,6 +252,7 @@ background-color: var(--color-ocean);
     color: var(--color-iris);
     background-color: var(--color-cornflower);
     cursor: pointer;
+    border: none;
 }
 
 .filters-button:hover,
